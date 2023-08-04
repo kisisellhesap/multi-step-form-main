@@ -1,0 +1,33 @@
+#thanksComponent {
+
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#thanksComponent img {
+    width: 100px;
+    height: 100px;
+}
+
+#thanksComponent h3 {
+    font-size: 2rem;
+    color: var(--Marine-blue);
+}
+
+#thanksComponent p {
+    text-align: center;
+    color: var(--Cool-gray);
+    font-size: .9rem;
+    line-height: 1.2rem;
+}
+
+#thanksBase {
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    align-items: center;
+    margin-top: -2rem;
+}

@@ -1,0 +1,16 @@
+.headerOfInfoComponents {
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+}
+
+.headerName {
+    color: var(--Marine-blue);
+    font-weight: 700;
+    font-size: 1.9rem;
+}
+
+
+.headerShortInfo {
+    color: var(--Cool-gray);
+}

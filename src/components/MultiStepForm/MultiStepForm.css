@@ -1,0 +1,20 @@
+#multiStepFrom {
+    background-color: var(--White);
+    width: 55%;
+    margin: auto;
+    height: 500px;
+    display: flex;
+    border-radius: 20px;
+    padding: 1rem;
+
+    transition: all 1s;
+    min-width: 660px;
+}
+
+
+
+.completedMultiStep {
+    background-color: transparent !important;
+}
+
+/* form-infoya bak orası  */

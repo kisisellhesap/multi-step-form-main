@@ -1,0 +1,77 @@
+#selectPlan-base {
+    /* background-color: red; */
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.planComponentPlans {
+    display: flex;
+    gap: 1rem;
+    min-height: 160px;
+}
+
+.planComponentToggle {
+    background-color: var(--Magnolia);
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    padding: .5rem 0rem;
+    border-radius: 5px;
+    justify-content: center;
+}
+
+.toggleDiv {
+
+    background-color: var(--Marine-blue);
+    border-radius: 20px;
+    position: relative;
+    height: 20px;
+    width: 40px;
+    display: flex;
+    align-items: center;
+    padding: .2rem;
+    transition: .5s ease;
+    cursor: pointer;
+}
+
+
+.circle {
+    width: 15px;
+    height: 15px;
+    border-radius: 100%;
+    background-color: white;
+    transition: 100ms ease;
+}
+
+.planComponentToggle p {
+    font-weight: 700;
+    color: var(--Cool-gray);
+    transition: 100ms ease;
+}
+
+.monthly>.circle {
+    transform: translate(0px, 0px);
+}
+
+.yearly>.circle {
+    transform: translate(18.5px, 0px);
+}
+
+
+p.active {
+    color: var(--Marine-blue);
+}
+
+.planComponent.active {
+    background-color: var(--Pastel-blue);
+}
+
+p.warning {
+    color: var(--White);
+    background-color: var(--Strawberry-red);
+    text-align: center;
+    padding: .5rem 0rem;
+    border-radius: 5px;
+    margin-top: -1rem;
+}

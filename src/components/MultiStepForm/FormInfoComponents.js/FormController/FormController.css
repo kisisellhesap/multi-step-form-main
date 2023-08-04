@@ -1,0 +1,40 @@
+.formController {
+
+    margin-top: auto;
+    padding: .8rem 0rem;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn {
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-weight: 500;
+    padding: .7rem 1.5rem;
+}
+
+.goBackBtn {
+    background-color: transparent;
+    padding: 0;
+    color: var(--Cool-gray);
+}
+
+.nextBtn {
+    background-color: var(--Marine-blue);
+    color: var(--White);
+    border-radius: 5px;
+    margin-left: auto;
+}
+
+.confirmBtn {
+    background-color: var(--Purplish-blue);
+    color: var(--White);
+    border-radius: 5px;
+    margin-left: auto;
+}
+
+.controllerDisable {
+    display: none;
+}

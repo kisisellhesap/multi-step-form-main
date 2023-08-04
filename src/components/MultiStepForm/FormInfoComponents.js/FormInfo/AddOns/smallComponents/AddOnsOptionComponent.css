@@ -1,0 +1,50 @@
+.addOnsOptionComponent {
+    display: flex;
+    padding: 1rem 1.2rem;
+    border-radius: 5px;
+    border: 1px solid var(--Cool-gray);
+    gap: 1.5rem;
+    align-items: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.addOnsOptionComponent.active {
+    border: 1px solid var(--Purplish-blue);
+    background-color: var(--Magnolia);
+}
+
+.addOnsOptionComponent:hover {
+    border: 1px solid var(--Purplish-blue);
+}
+
+.addOnsOptionHeader {
+    display: flex;
+    flex-direction: column;
+    gap: .1rem;
+}
+
+.addOptionPlanName {
+    color: var(--Marine-blue);
+    font-weight: 700;
+    font-size: .9rem;
+}
+
+.addOptionPlanInfo {
+    color: var(--Cool-gray);
+    font-size: .8rem;
+    font-weight: 500;
+}
+
+.addOnsOptionPlanPrice {
+    color: var(--Purplish-blue);
+    margin-left: auto;
+    font-size: .8rem;
+    font-weight: 700;
+}
+
+.addOnsOptionPlanCheck[type="checkbox"] {
+    width: 16px;
+    height: 16px;
+
+}

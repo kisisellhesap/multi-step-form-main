@@ -1,0 +1,44 @@
+.inputComponent {
+    display: flex;
+    flex-direction: column;
+    gap: .4rem;
+}
+
+.inputText {
+    padding: .7rem .9rem;
+    border-radius: 8px;
+    outline: none;
+    border: 1px solid var(--Cool-gray);
+    cursor: pointer;
+}
+
+
+.inputText:hover {
+    border: 1px solid var(--Purplish-blue);
+}
+
+.inputName {
+    color: var(--Marine-blue);
+    font-size: .9rem;
+    font-weight: 500;
+}
+
+.inputHeader {
+    display: flex;
+}
+
+.inputError {
+    margin-left: auto;
+    font-weight: 700;
+    color: var(--Strawberry-red);
+    font-size: .8rem;
+
+}
+
+.errBorder {
+    border: 1px solid var(--Strawberry-red);
+}
+
+.errBorder:hover {
+    border: 1px solid var(--Strawberry-red);
+}

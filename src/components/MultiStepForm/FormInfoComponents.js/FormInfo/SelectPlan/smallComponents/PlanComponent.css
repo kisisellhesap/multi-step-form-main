@@ -1,0 +1,52 @@
+.planComponent {
+
+    width: calc(100% / 3);
+    height: fit-content;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 1px solid var(--Cool-gray);
+    cursor: pointer;
+}
+
+.planComponent>* {
+    pointer-events: none;
+}
+
+.planComponent:hover {
+    border: 1px solid var(--Purplish-blue);
+
+}
+
+.planComponent.active {
+    border: 1px solid var(--Purplish-blue);
+    background-color: var(--Magnolia);
+}
+
+.planImg {
+    width: 30px;
+    margin-bottom: 2.5rem;
+}
+
+.planName {
+    font-size: .9rem;
+    color: var(--Marine-blue);
+}
+
+.planPrice {
+    font-size: .8rem;
+    color: var(--Cool-gray);
+}
+
+.plansFree {
+    font-size: .7rem;
+    color: var(--Marine-blue);
+    font-weight: 400;
+}
+
+.planInfo {
+    display: flex;
+    flex-direction: column;
+    gap: .3rem;
+}

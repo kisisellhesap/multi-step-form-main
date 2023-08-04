@@ -1,0 +1,89 @@
+#summary-base {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+
+}
+
+.finishFormHeader {
+    background-color: var(--Alabaster);
+    display: flex;
+    flex-direction: column;
+    padding: 1.5rem;
+    border-radius: 5px;
+}
+
+.finishFormPlansOption {
+    display: flex;
+    align-items: center;
+    padding-bottom: 1rem;
+    border-bottom: 1px solid var(--Light-gray);
+}
+
+.finishFormAddOns {
+    padding-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: .5rem;
+}
+
+.finishFormAddOn {
+    display: flex;
+    align-items: center;
+
+}
+
+.finishFormAddOnName {
+    color: var(--Cool-gray);
+    font-size: .8rem;
+}
+
+.finishFormAddOnPrice {
+    margin-left: auto;
+    font-size: .8rem;
+    color: var(--Marine-blue);
+
+}
+
+.finishFormNameDivInfo {
+    display: flex;
+    gap: .3rem;
+}
+
+.finishFormNameDivInfo p {
+    font-weight: 700;
+    color: var(--Marine-blue);
+}
+
+.finishFormPlanPrice {
+    margin-left: auto;
+    font-weight: 700;
+    color: var(--Marine-blue);
+}
+
+.finishFormPlanOptionChange {
+    outline: none;
+    border: none;
+    background-color: transparent;
+    color: var(--Cool-gray);
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.finishFormTotal {
+    display: flex;
+    padding: 0rem 1.5rem;
+    align-items: center;
+}
+
+.finishFormTotalName {
+    color: var(--Cool-gray);
+    font-size: .8rem;
+}
+
+.finishFormTotalPrice {
+    margin-left: auto;
+    color: var(--Purplish-blue);
+    font-weight: 700;
+    font-size: 1.1rem;
+}

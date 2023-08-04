@@ -1,0 +1,106 @@
+.navSide {
+    background-image: url("../../../assets/images/bg-sidebar-desktop.svg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: bottom;
+    width: 30%;
+    border-radius: 10px;
+    padding-top: 2rem;
+    padding-left: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    transition: all ease 1s;
+
+}
+
+.completedNav {
+    width: 0%;
+    transition: all ease 1s;
+    animation: completedNav 500ms ease-in-out 1 forwards;
+
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: fit-content;
+    gap: 1rem;
+    cursor: pointer;
+    transition: all 300ms;
+}
+
+
+.menuDisplayNone {
+    opacity: 0;
+}
+
+
+.menuInfo {
+    display: flex;
+    flex-direction: column;
+    gap: .2rem;
+}
+
+.menuNumber {
+    font-size: .8rem;
+    border: 1.6px solid var(--White);
+    border-radius: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    color: var(--White);
+    transition: all 300ms;
+}
+
+.stepName {
+    font-size: .7rem;
+    color: var(--Light-gray);
+}
+
+.menuName {
+    font-size: .7rem;
+    color: var(--White);
+}
+
+.activeP {
+    background-color: var(--Light-blue);
+    color: var(--Marine-blue);
+    border: 1.6px solid transparent;
+}
+
+
+.warningP {
+    animation: warningP 500ms ease-in-out 3 forwards;
+    border: 1.6px solid transparent;
+}
+
+@keyframes warningP {
+    0% {
+        background-color: transparent;
+    }
+
+    100% {
+        background-color: var(--Strawberry-red);
+    }
+
+}
+
+
+@keyframes completedNav {
+    0% {
+        width: 30%;
+    }
+
+    50% {
+        width: 35%;
+    }
+
+    100% {
+        width: 0%;
+    }
+
+}
