@@ -179,4 +179,7 @@ p {
   #selectPlan-base {
     gap:1rem !important ;
 }
+p.warning{
+  margin-top:0 !important;
+}
 }
