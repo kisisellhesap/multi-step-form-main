@@ -110,7 +110,7 @@ p {
     padding: 0 !important;
     justify-content: center !important;
     border-radius: 0px !important;
-    height: 20vh !important;
+    height: 15vh !important;
     background-image: none !important;
   }
 
@@ -119,7 +119,7 @@ p {
   .formInfoComponents {
     width: 100% !important;
     padding: 0 !important;
-    height: 80vh !important;
+    height: 85vh !important;
 
   }
 
