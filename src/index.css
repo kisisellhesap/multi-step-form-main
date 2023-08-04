@@ -145,6 +145,7 @@ p {
 
   .planComponentPlans {
     flex-direction: column;
+    gap:.7rem !important;
   }
 
   .planComponent {
