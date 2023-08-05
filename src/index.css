@@ -112,6 +112,7 @@ p {
     border-radius: 0px !important;
     height: 15vh !important;
     background-image: none !important;
+    align-items: center;
   }
 
 
